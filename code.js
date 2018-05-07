@@ -7,5 +7,5 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`shipbot9000.glitch.me/`);
+  http.get(process.env.BOTURL);
 }, 280000);

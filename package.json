@@ -1,0 +1,15 @@
+{
+  "name": "botPing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "start": "node code.js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

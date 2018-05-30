@@ -8,4 +8,4 @@ app.get("/", (request, response) => {
 app.listen(process.env.PORT);
 setInterval(() => {
   http.get(process.env.BOTURL);
-}, 280000);
+}, 1800000);

@@ -8,4 +8,5 @@ app.get("/", (request, response) => {
 app.listen(process.env.PORT);
 setInterval(() => {
   http.get(process.env.BOTURL);
+  http.get(process.env.BIRBURL);
 }, 1800000);
